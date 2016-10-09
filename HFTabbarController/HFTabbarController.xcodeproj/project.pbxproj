@@ -81,6 +81,7 @@
 		87C802601DA9E82300511B57 = {
 			isa = PBXGroup;
 			children = (
+				87C8029F1DA9E8F600511B57 /* other */,
 				87C8026B1DA9E82300511B57 /* HFTabbarController */,
 				87C802851DA9E82300511B57 /* HFTabbarControllerTests */,
 				87C802901DA9E82300511B57 /* HFTabbarControllerUITests */,
@@ -101,15 +102,6 @@
 		87C8026B1DA9E82300511B57 /* HFTabbarController */ = {
 			isa = PBXGroup;
 			children = (
-				87C8026F1DA9E82300511B57 /* AppDelegate.h */,
-				87C802701DA9E82300511B57 /* AppDelegate.m */,
-				87C802721DA9E82300511B57 /* ViewController.h */,
-				87C802731DA9E82300511B57 /* ViewController.m */,
-				87C802751DA9E82300511B57 /* Main.storyboard */,
-				87C802781DA9E82300511B57 /* Assets.xcassets */,
-				87C8027A1DA9E82300511B57 /* LaunchScreen.storyboard */,
-				87C8027D1DA9E82300511B57 /* Info.plist */,
-				87C8026C1DA9E82300511B57 /* Supporting Files */,
 			);
 			path = HFTabbarController;
 			sourceTree = "<group>";
@@ -138,6 +130,23 @@
 				87C802931DA9E82300511B57 /* Info.plist */,
 			);
 			path = HFTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+		87C8029F1DA9E8F600511B57 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				87C8026C1DA9E82300511B57 /* Supporting Files */,
+				87C8026F1DA9E82300511B57 /* AppDelegate.h */,
+				87C802701DA9E82300511B57 /* AppDelegate.m */,
+				87C802721DA9E82300511B57 /* ViewController.h */,
+				87C802731DA9E82300511B57 /* ViewController.m */,
+				87C802751DA9E82300511B57 /* Main.storyboard */,
+				87C802781DA9E82300511B57 /* Assets.xcassets */,
+				87C8027A1DA9E82300511B57 /* LaunchScreen.storyboard */,
+				87C8027D1DA9E82300511B57 /* Info.plist */,
+			);
+			name = other;
+			path = HFTabbarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,6 +507,7 @@
 				87C802981DA9E82300511B57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C802991DA9E82300511B57 /* Build configuration list for PBXNativeTarget "HFTabbarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				87C8029B1DA9E82300511B57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C8029C1DA9E82300511B57 /* Build configuration list for PBXNativeTarget "HFTabbarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +525,7 @@
 				87C8029E1DA9E82300511B57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
